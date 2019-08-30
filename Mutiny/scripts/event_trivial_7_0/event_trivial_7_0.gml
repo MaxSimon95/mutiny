@@ -161,4 +161,5 @@ affected.occupation + " " + affected.forename + " " + affected.surname +
 //speech[4]="I suggest having him whipped. Is that alright with you, sir?" 
 
 outputSpeech(speech)
+make_standard_buttons_visible()
 

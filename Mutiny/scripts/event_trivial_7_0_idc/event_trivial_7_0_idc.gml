@@ -1,7 +1,5 @@
 instance_destroy(instance_find(obj_text, 0))
-global.efficiency += 5
-global.affected.loyalty -= 4
-global.current_crewmember.loyalty -= 2
+global.current_crewmember.loyalty -= 1
 
 show_debug_message(global.current_crewmember.aggressivity)
 if (global.current_crewmember.aggressivity > 5)
@@ -16,3 +14,5 @@ else
 	global.efficiency -= 2
 	global.affected.loyalty += 1
 }
+make_standard_buttons_invisible()
+button_go_on.visible=true

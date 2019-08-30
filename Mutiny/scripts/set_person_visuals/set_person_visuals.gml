@@ -6,6 +6,7 @@ global.crew[argument0].skin_color=global.skincolors[rando]
 // set hair type
 
 rando = irandom(array_length_1d(global.hairstyles)-1)
+
 global.crew[argument0].hair_style=global.hairstyles[rando]
 
 // set hair color
@@ -37,7 +38,34 @@ switch(global.crew[argument0].occupation)
 	case "Second Mate": global.crew[argument0].clothes=cloth_234th_mate; break;
 	case "Third Mate": global.crew[argument0].clothes=cloth_234th_mate; break;
 	case "Fourth Mate": global.crew[argument0].clothes=cloth_234th_mate; break;
+	case "Boatswain": 
+		global.crew[argument0].clothes=cloth_boatswain;
+		if (global.crew[argument0].hair_style=hairstyle7) global.crew[argument0].hair_style=hairstyle1
+		if (global.crew[argument0].hair_style=hairstyle8) global.crew[argument0].hair_style=hairstyle2
+		if (global.crew[argument0].hair_style=hairstyle10) global.crew[argument0].hair_style=hairstyle3
+		if (global.crew[argument0].hair_style=hairstyle11) global.crew[argument0].hair_style=hairstyle4 
+		break;
+	case "Boatswain's Mate": global.crew[argument0].clothes=cloth_boatswains_mate; break;
+	case "Cook": 
+		if(global.crew[argument0].efficiency>3) global.crew[argument0].clothes=cloth_cook; 
+		else global.crew[argument0].clothes=cloth_cook_bad; 
+		break;
+	case "Butcher": 
+		if(global.crew[argument0].efficiency>3) global.crew[argument0].clothes=cloth_butcher; 
+		else global.crew[argument0].clothes=cloth_butcher_bad; 
+		break;
+	case "Gunner": 
+		global.crew[argument0].clothes=cloth_gunner;
+		if (global.crew[argument0].hair_style=hairstyle7) global.crew[argument0].hair_style=hairstyle1
+		if (global.crew[argument0].hair_style=hairstyle8) global.crew[argument0].hair_style=hairstyle2
+		if (global.crew[argument0].hair_style=hairstyle10) global.crew[argument0].hair_style=hairstyle3
+		if (global.crew[argument0].hair_style=hairstyle11) global.crew[argument0].hair_style=hairstyle4 
+		break;
+	case "Gunner's Mate": global.crew[argument0].clothes=cloth_gunners_mate; break;
+	
 	default: if(irandom(100)>50) global.crew[argument0].clothes=cloth_seaman_1 else global.crew[argument0].clothes=cloth_seaman_2 
+	//default: global.crew[argument0].clothes=cloth_boatswain
 	
 }
+
 

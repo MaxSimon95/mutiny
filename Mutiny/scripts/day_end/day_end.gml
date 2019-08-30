@@ -12,4 +12,10 @@ case "triple": global.supplies -= 60 break;
 
 //show_debug_message(global.known_supplies)
 
+global.eventsToday = global.eventsNextDay
+global.eventsNextDay = global.eventsIn2Day
+global.eventsIn2Day = global.eventsIn3Day
+global.eventsIn3Day = global.eventsIn4Day
+global.eventsIn4Day = ds_list_create();
+
 day_start()

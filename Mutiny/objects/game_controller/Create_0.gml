@@ -16,11 +16,12 @@ global.known_supplies=global.supplies/6
 global.known_loyalty=global.loyalty
 
 show_debug_message("loyalty: " + string_format(global.loyalty,1,0) + ", efficiency: " + string_format(global.efficiency,1,0) + ", supplies: "+ string_format(global.supplies,1,0) + ", occult danger: "+string_format(global.occult_danger,1,0) )
-event_starter(global.events[7])
+//event_starter(global.events[7])
 
 global.eventsToday = ds_list_create();
 global.eventsNextDay = ds_list_create();
 global.eventsIn2Day = ds_list_create();
 global.eventsIn3Day = ds_list_create();
 global.eventsIn4Day = ds_list_create();
-	  // ds[| jndex++] = "Bullo"
+	  
+day_start()

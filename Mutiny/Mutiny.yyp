@@ -42,7 +42,7 @@
             "Key": "00dbcdcc-4b85-42ef-aeb9-4e0db59e0973",
             "Value": {
                 "id": "3a9ccb05-877d-4e30-bdda-e49baba0f410",
-                "resourcePath": "scripts\\event_starter\\event_starter.yy",
+                "resourcePath": "scripts\\single_event_starter\\single_event_starter.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -108,6 +108,14 @@
                 "id": "a1f7a9c1-3f51-47dd-9c81-3236e5553b6f",
                 "resourcePath": "views\\13922fc4-81a7-44d3-a98e-a188fa734267.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1444ae65-8a97-46d0-ab57-b6340e048ad7",
+            "Value": {
+                "id": "da74f9ed-8f1a-46f3-ac48-fc6bfd8f7c39",
+                "resourcePath": "sprites\\cloth_cook\\cloth_cook.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "270afc02-b9c9-486f-bf85-36136e80c226",
+            "Value": {
+                "id": "557e8c3d-d2a1-49d7-b488-c9143ac60acb",
+                "resourcePath": "views\\270afc02-b9c9-486f-bf85-36136e80c226.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "29c151e1-ab30-4a1d-a3cb-22f8cc3d9d13",
             "Value": {
                 "id": "8a0aef5a-080f-4d0e-a118-9ba23645f6cc",
@@ -252,6 +268,14 @@
                 "id": "a5a49010-d757-4287-81b8-f68acdd68dda",
                 "resourcePath": "sprites\\hairstyle16\\hairstyle16.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2b73a2d5-0a5d-44cc-9483-a446ba89c624",
+            "Value": {
+                "id": "a41e826e-ba95-4bfb-a238-c81c53406bbe",
+                "resourcePath": "scripts\\make_standard_buttons_invisible\\make_standard_buttons_invisible.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -423,6 +447,14 @@
             }
         },
         {
+            "Key": "50a38a25-9cac-43ac-9955-ac3d6d658127",
+            "Value": {
+                "id": "9d226726-8891-4dc9-9cf3-a9643fe9f388",
+                "resourcePath": "sprites\\cloth_boatswains_mate\\cloth_boatswains_mate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "517c2a0e-432e-4f42-9140-6c147ceb82bb",
             "Value": {
                 "id": "38da9e2d-382f-447b-bae9-5b454ee60ff7",
@@ -551,11 +583,27 @@
             }
         },
         {
+            "Key": "669cee74-86eb-4252-a5cb-7f84ba0dcf08",
+            "Value": {
+                "id": "16b9700a-62ba-46b9-a54d-5cc32e39f0a7",
+                "resourcePath": "scripts\\conclude_current_event\\conclude_current_event.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "691064ec-a210-4af9-a126-2c4f2d8e4099",
             "Value": {
                 "id": "a8d0c76d-7fa3-40ad-b906-234c4f2328e3",
                 "resourcePath": "objects\\person_pupils\\person_pupils.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6984efa8-c54a-4bf0-82ec-77f7855ebcd4",
+            "Value": {
+                "id": "218251f1-cb34-4340-b439-63fe8e16d32d",
+                "resourcePath": "sprites\\cloth_butcher_bad\\cloth_butcher_bad.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -675,6 +723,14 @@
             "Value": {
                 "id": "2e472414-2ac6-44e6-8da6-7467b3536c8f",
                 "resourcePath": "sprites\\pupils\\pupils.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7bacc03a-79a9-4019-868e-a7475fe40ce2",
+            "Value": {
+                "id": "62fe1f0a-dc00-47b6-9e9e-fa72b2a1ed33",
+                "resourcePath": "sprites\\cloth_boatswain\\cloth_boatswain.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -823,6 +879,14 @@
             }
         },
         {
+            "Key": "952f95d0-feeb-485e-b752-b2abd2366e98",
+            "Value": {
+                "id": "9b984f8d-d5c8-4524-a146-9d0c0fd82551",
+                "resourcePath": "sprites\\cloth_butcher\\cloth_butcher.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "953800ab-740c-4795-b34f-c5a7aea7b168",
             "Value": {
                 "id": "24afc364-d492-45a9-b702-c836c07f13fe",
@@ -871,6 +935,14 @@
             }
         },
         {
+            "Key": "9eaca828-798c-41a6-826f-444ca2cb4eee",
+            "Value": {
+                "id": "480f5089-a461-4e77-9890-af6ff5b03c1d",
+                "resourcePath": "sprites\\cloth_gunner\\cloth_gunner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f17b0a1-9102-4b12-a7ee-d95c85323773",
             "Value": {
                 "id": "858a9778-3b2c-491a-a8fb-a5031dc395df",
@@ -903,6 +975,14 @@
             }
         },
         {
+            "Key": "a4664b54-2485-45fd-82c6-ad3ca465f5d0",
+            "Value": {
+                "id": "cf24af91-ce7d-41b4-b54d-36494159ce4e",
+                "resourcePath": "scripts\\start_next_daily_event\\start_next_daily_event.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5b8341c-f925-4e10-8334-988a0d5f3e5a",
             "Value": {
                 "id": "f84b5f89-a37b-45c7-82ff-b68b90157451",
@@ -916,6 +996,14 @@
                 "id": "867bac11-30f9-414e-b746-c8c16a66a972",
                 "resourcePath": "sprites\\hairstyle14\\hairstyle14.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6df3fe8-70ff-4731-977f-d6361ddcf27f",
+            "Value": {
+                "id": "22ccbe1f-dbda-4b09-8d02-12f059eda5ae",
+                "resourcePath": "scripts\\event_trivial_7_0_lsedt\\event_trivial_7_0_lsedt.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1015,6 +1103,14 @@
             }
         },
         {
+            "Key": "be12529e-7304-4dd0-80a2-c9dacd892c3c",
+            "Value": {
+                "id": "ace3ceff-910d-4b87-b43f-176ad033806d",
+                "resourcePath": "scripts\\make_standard_buttons_visible\\make_standard_buttons_visible.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bede10c3-ed5c-43f3-9daf-faf7809ca591",
             "Value": {
                 "id": "5f468089-b880-4111-8937-cae99107f3be",
@@ -1039,6 +1135,14 @@
             }
         },
         {
+            "Key": "c74aae03-f572-4c6e-9bc3-74a02b835724",
+            "Value": {
+                "id": "1da30d19-aae0-4765-9349-5cebdd9e6a94",
+                "resourcePath": "sprites\\cloth_cook_bad\\cloth_cook_bad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cace86e8-3953-4e75-9dde-faa3170065e7",
             "Value": {
                 "id": "d492c340-ffa1-460b-a370-4ea8c688fddb",
@@ -1052,6 +1156,14 @@
                 "id": "7ab81faf-b48a-4ee7-870f-e5b589dbc377",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd00a66d-c923-47d6-8658-8d90a95d72d0",
+            "Value": {
+                "id": "7b8cdc7c-8ac8-48ad-871d-e34525be1e54",
+                "resourcePath": "objects\\button_go_on\\button_go_on.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1151,6 +1263,14 @@
             }
         },
         {
+            "Key": "db0df44d-d20d-4230-b04b-c7b5f504dbf1",
+            "Value": {
+                "id": "294a9ee7-2f91-4fe6-9145-c64de9d88b1f",
+                "resourcePath": "scripts\\evening_start\\evening_start.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "de3f7302-bd15-4885-9dfe-4f20c649a644",
             "Value": {
                 "id": "e327c19b-47ef-40eb-9831-5170bd113457",
@@ -1212,6 +1332,14 @@
                 "id": "e7d8a46d-5776-4dc4-8100-8fe6177c142a",
                 "resourcePath": "objects\\event\\event.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f0554f47-1746-47b8-b81b-62d8d281f35d",
+            "Value": {
+                "id": "82cb80c6-292e-4ae0-8b79-0b99cdb44ee5",
+                "resourcePath": "sprites\\cloth_gunners_mate\\cloth_gunners_mate.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1342,19 +1470,25 @@
         "15f69b97-7945-4e02-8a46-b37fcb03251c",
         "3fbb0d47-3f9f-4823-a052-af18fafd23f4",
         "4d4dd13c-8d33-4ed8-bd94-c0a39232ce76",
+        "132e1e8a-61de-4a48-85f8-77d7b044afa5",
+        "00dbcdcc-4b85-42ef-aeb9-4e0db59e0973",
+        "a4664b54-2485-45fd-82c6-ad3ca465f5d0",
+        "669cee74-86eb-4252-a5cb-7f84ba0dcf08",
         "855022b2-c5dd-49ce-bad9-e4139d25152f",
         "0b90dde3-dbaa-4474-9e5c-85ab413591be",
         "bcf6f85b-592f-4787-adbe-620ac39e7878",
         "76e8265a-65e6-4a6e-b3c5-004f7401bb96",
         "cfced443-3d70-453c-aa69-0c472e378bfd",
-        "00dbcdcc-4b85-42ef-aeb9-4e0db59e0973",
-        "132e1e8a-61de-4a48-85f8-77d7b044afa5",
+        "a6df3fe8-70ff-4731-977f-d6361ddcf27f",
         "0f4f1c82-e03e-4ad9-aa42-d39c63630596",
         "1936770c-9796-40e2-bc30-8aa5dcc4ca53",
         "05d18ca2-a08c-4831-b97c-4cfe38ba30d9",
         "55102622-f4b6-4853-b70b-f738e186065c",
         "38f34d1c-a3b5-4864-8c83-6d77a77e771d",
         "83520f9c-9f1f-4b79-b78c-5a691b62fcf6",
+        "be12529e-7304-4dd0-80a2-c9dacd892c3c",
+        "2b73a2d5-0a5d-44cc-9483-a446ba89c624",
+        "db0df44d-d20d-4230-b04b-c7b5f504dbf1",
         "ebee346c-9237-4b16-924f-1c142ee7bb17",
         "2f64eebb-149d-4b59-b731-ed119dc7436d"
     ],

@@ -1,8 +1,8 @@
 {
-    "id": "00dbcdcc-4b85-42ef-aeb9-4e0db59e0973",
+    "id": "a6df3fe8-70ff-4731-977f-d6361ddcf27f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "event_starter",
+    "name": "event_trivial_7_0_lsedt",
     "IsCompatibility": false,
     "IsDnD": false
 }
