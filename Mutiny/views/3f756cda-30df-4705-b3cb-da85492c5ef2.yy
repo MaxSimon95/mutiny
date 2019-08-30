@@ -5,7 +5,9 @@
     "name": "3f756cda-30df-4705-b3cb-da85492c5ef2",
     "children": [
         "0b90dde3-dbaa-4474-9e5c-85ab413591be",
-        "bcf6f85b-592f-4787-adbe-620ac39e7878"
+        "bcf6f85b-592f-4787-adbe-620ac39e7878",
+        "76e8265a-65e6-4a6e-b3c5-004f7401bb96",
+        "cfced443-3d70-453c-aa69-0c472e378bfd"
     ],
     "filterType": "GMScript",
     "folderName": "event_trivial_7",

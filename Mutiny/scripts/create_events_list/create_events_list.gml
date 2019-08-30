@@ -1,44 +1,48 @@
-global.events_trivial[0]="dolphins_start"
-global.events_trivial[1]="supplies_adrift"
-global.events_trivial[2]="a_beautiful_painting"
-global.events_trivial[3]="bad_cooking"
-global.events_trivial[4]="mates_warning"
-global.events_trivial[5]="a_friendly_ship"
-global.events_trivial[6]="ghost_ship_sighted"
-global.events_trivial[7]="other_crew_member_drunk"
+create_event(0, "temp_meta_event", event_trivial_7_0)
+create_event(1, "supplies_in_water", event_trivial_7_0)
+create_event(2, "a_painting", event_trivial_7_0)
+create_event(3, "bad_cooking", event_trivial_7_0)
+create_event(4, "mates_warning", event_trivial_7_0)
+create_event(5, "a_friendly_ship", event_trivial_7_0)
+create_event(6, "ghost_ship_sighted", event_trivial_7_0)
+create_event(7, "other_crew_member_drunk", event_trivial_7_0)
+create_event(8, "mean_officer_complaint", event_trivial_7_0)
+create_event(9, "i_want_to_be_cook", event_trivial_7_0)
+create_event(10, "dolphins_start", event_trivial_7_0)
 
-global.events_medium[0]="mysterious_chest"
-global.events_medium[1]="blind_passager"
-global.events_medium[2]="crew_member_disappeared"
-global.events_medium[3]="murder"
-global.events_medium[4]="navigation_error"
-global.events_medium[5]="bad_weather_ahead"
-global.events_medium[6]="light_storm"
-global.events_medium[7]="corpse_found"
-global.events_medium[8]="terrible_visions"
-global.events_medium[9]="contained_disease"
-global.events_medium[10]="spy_murdered"
-global.events_medium[11]="crew_member_goes_insane"
-global.events_medium[12]="crew_member_regains_sanity"
-global.events_medium[13]="accident_ship_damaged"
-global.events_medium[14]="accident_crew_member_hurt"
-global.events_medium[15]="crew_member_recovered"
-global.events_medium[16]="crew_member_defies_captain"
-global.events_medium[17]="adrift_sailors"
-global.events_medium[18]="treasure_map"
-global.events_medium[19]="demands_for_more_alcohol"
-global.events_medium[20]="fist_fight"
-global.events_medium[21]="no_winds"
+/*
+global.events[10]="mysterious_chest"
+global.events[11]="blind_passager"
+global.events[12]="crew_member_disappeared"
+global.events[13]="murder"
+global.events[14]="navigation_error"
+global.events[15]="bad_weather_ahead"
+global.events[16]="light_storm"
+global.events[17]="corpse_found"
+global.events[18]="terrible_visions"
+global.events[19]="contained_disease"
+global.events[20]="spy_murdered"
+global.events[21]="crew_member_goes_insane"
+global.events[22]="crew_member_regains_sanity"
+global.events[23]="accident_ship_damaged"
+global.events[24]="accident_crew_member_hurt"
+global.events[25]="crew_member_recovered"
+global.events[26]="crew_member_defies_captain"
+global.events[27]="adrift_sailors"
+global.events[28]="treasure_map"
+global.events[29]="demands_for_more_alcohol"
+global.events[30]="fist_fight"
+global.events[31]="no_winds"
 
-global.events_heavy[0]="heavy_storm"
-global.events_heavy[1]="pirate_attack"
-global.events_heavy[2]="kraken_attack"
-global.events_heavy[3]="deadly_disease"
-global.events_heavy[4]="multiple_murders"
+global.events[42]="heavy_storm"
+global.events[43]="pirate_attack"
+global.events[44]="kraken_attack"
+global.events[45]="deadly_disease"
+global.events[46]="multiple_murders"
 
 global.night_events[0]="a_terrible_dream"
 global.night_events[1]="spy_offers_services"
 global.night_events[2]="spy_gives_intel"
-
+*/
 
 //

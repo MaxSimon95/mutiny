@@ -23,6 +23,9 @@ global.hairstyles[11]=hairstyle11
 global.hairstyles[12]=hairstyle12
 global.hairstyles[13]=hairstyle13
 global.hairstyles[14]=hairstyle14
+global.hairstyles[15]=hairstyle15
+global.hairstyles[16]=hairstyle16
+global.hairstyles[17]=hairstyle17
 
 
 // initialize hair color
@@ -77,6 +80,8 @@ global.beards[11]=beard11
 global.beards[12]=beard12
 global.beards[13]=beard13
 global.beards[14]=beard14
+global.beards[15]=beard15
+global.beards[16]=beard16
 
 // initialize eyebrows
 

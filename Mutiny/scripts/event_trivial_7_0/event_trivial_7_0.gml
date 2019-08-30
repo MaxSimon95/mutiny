@@ -1,9 +1,7 @@
 //global.events_trivial[7]="other_crew_member_drunk"
 
 // MANDATORY STEPS
-
-global.current_event_status="trivial_7_0"
-
+show_debug_message("in script execution")
 //determine and order suitable_speakers
 
 i=0
@@ -116,8 +114,28 @@ if(array_length_1d(suitable_speakers)==0) return -1
 
 
 //select speaker
-
-speaker = global.crew[suitable_speakers[0]]
+if(array_length_1d(suitable_speakers)>=3)
+{
+	if (global.crew[suitable_speakers[1]].efficiency > global.crew[suitable_speakers[0]].efficiency+3)
+		if (global.crew[suitable_speakers[2]].efficiency > global.crew[suitable_speakers[1]].efficiency+2)
+		speaker = global.crew[suitable_speakers[2]]
+		else
+		speaker = global.crew[suitable_speakers[1]]
+	else
+	speaker = global.crew[suitable_speakers[0]]
+	
+}
+if(array_length_1d(suitable_speakers)==2)
+{
+	if (global.crew[suitable_speakers[1]].efficiency > global.crew[suitable_speakers[0]].efficiency+3)
+	speaker = global.crew[suitable_speakers[1]]
+	else
+	speaker = global.crew[suitable_speakers[0]]
+}
+if(array_length_1d(suitable_speakers)==1)
+{
+	speaker = global.crew[suitable_speakers[0]]
+}
 global.current_crewmember = speaker
 global.crewmember_visible=true
 update_person_visuals()
@@ -125,7 +143,7 @@ update_person_visuals()
 // select affected crewmember
 
 affected = global.crew[selectRandomCrewId(true)]
-show_debug_message(affected)
+global.affected = affected
 
 // output speech
 
@@ -135,7 +153,7 @@ speech=
 "I hate to say this, but... " +
 affected.occupation + " " + affected.forename + " " + affected.surname + 
 " ... is bloody drunk on duty! He's endangering himself and others. " +
-"I suggest having him whipped. Is that alright with you, sir?" 
+"Should we have him whipped as punishment?" 
 
 //speech[1]="I hate to say this, but..." 
 //speech[2]=affected.occupation + " " + affected.forename + " " + affected.surname 

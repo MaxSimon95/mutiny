@@ -18,7 +18,10 @@
         "f28bd693-b745-45dd-a5cb-de6da4ecacf1",
         "7404d766-705a-4f27-a188-aeba6e4c8832",
         "a5e92c8c-788a-4a20-a8dc-ef0193221e40",
-        "6cbd9651-eaa9-4292-9158-2875ab628d49"
+        "6cbd9651-eaa9-4292-9158-2875ab628d49",
+        "9f17b0a1-9102-4b12-a7ee-d95c85323773",
+        "2a84e9bb-94a8-491d-b6bb-3d2f6b72b772",
+        "bd3a15d8-f6dd-45e0-b428-2223d1272233"
     ],
     "filterType": "GMSprite",
     "folderName": "hairstyles",
