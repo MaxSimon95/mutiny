@@ -13,6 +13,13 @@ global.crew[argument0].hair_style=global.hairstyles[rando]
 
 rando = irandom(array_length_1d(global.haircolors)-1)
 global.crew[argument0].hair_color=global.haircolors[rando]
+	if(global.crew[argument0].occupation == "Midshipman")
+	switch(global.crew[argument0].hair_color)
+		{
+			case 12095378: global.crew[argument0].hair_color = 2888740; break;
+			case 8213339: global.crew[argument0].hair_color = 2624581; break;
+			case 14800071: global.crew[argument0].hair_color = 3015183; break;
+		}
 
 // set eyebrow type
 
@@ -23,6 +30,9 @@ global.crew[argument0].eyebrows=global.eyebrows[rando]
 
 rando = irandom(array_length_1d(global.beards)-1)
 global.crew[argument0].beard=global.beards[rando]
+
+	if(global.crew[argument0].occupation == "Midshipman")
+	global.crew[argument0].beard=global.beards[9]
 
 // set speech color
 
