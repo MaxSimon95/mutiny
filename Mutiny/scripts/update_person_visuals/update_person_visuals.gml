@@ -5,6 +5,13 @@ var c=global.current_crewmember
 
 //update visuals
 
+
+with(person_base)
+{
+	sprite_index = global.current_crewmember.skin_type
+}
+
+
 with(person_hair)
 {
 	sprite_index = global.current_crewmember.hair_style

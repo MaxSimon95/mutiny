@@ -1,0 +1,1 @@
+global.crew[argument[0]].voice_pitch = (irandom(10)+5)/10

@@ -3,6 +3,13 @@
 rando = irandom(array_length_1d(global.skincolors)-1)
 global.crew[argument0].skin_color=global.skincolors[rando]
 
+// set skintype
+
+rando = irandom(array_length_1d(global.skintypes)-1)
+global.crew[argument0].skin_type=global.skintypes[rando]
+
+if(irandom(100)>20) global.crew[argument0].skin_type=skintype0
+
 // set hair type
 
 rando = irandom(array_length_1d(global.hairstyles)-1)

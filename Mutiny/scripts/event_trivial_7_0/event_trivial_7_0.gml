@@ -143,17 +143,21 @@ update_person_visuals()
 // select affected crewmember
 
 affected = global.crew[selectRandomCrewId(true)]
+while(affected == global.current_crewmember)||(affected.occupation == "Captain")
+{
+	affected = global.crew[selectRandomCrewId(true)]
+}
 global.affected = affected
 
 // output speech
 
 speech_bubble.visible = true
 speech=
-"Captain! " + 
-"I hate to say this, but... " +
+"^Capt=ain! " + 
+"=I ^hate =to ^say =this, but...§ " +
 affected.occupation + " " + affected.forename + " " + affected.surname + 
-" ... is bloody drunk on duty! He's endangering himself and others. " +
-"Should we have him whipped as punishment?" 
+" ...§ is bloody drunk on ^duty! _He's endangering himself and others.§ " +
+"^Should we have him whipped as punishment? " 
 
 //speech[1]="I hate to say this, but..." 
 //speech[2]=affected.occupation + " " + affected.forename + " " + affected.surname 

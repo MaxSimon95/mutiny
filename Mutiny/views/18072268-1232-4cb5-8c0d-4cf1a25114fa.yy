@@ -14,8 +14,10 @@
         "3f278909-eae6-433f-8809-c16e87c59dbd",
         "ffe57908-eff8-49c3-9296-9b77b8bd799b",
         "9b3a97ba-c136-4d09-95fd-b7bfa3daa492",
+        "94fc0d69-5c3f-420b-9957-c2d8368591ed",
         "ce70f423-e56e-4b0b-b9b9-4f5c3a7de52e",
-        "15f69b97-7945-4e02-8a46-b37fcb03251c"
+        "15f69b97-7945-4e02-8a46-b37fcb03251c",
+        "bcc278f3-c05d-48fb-8eb6-7eb6bbd2b73a"
     ],
     "filterType": "GMScript",
     "folderName": "crewmember_generation",

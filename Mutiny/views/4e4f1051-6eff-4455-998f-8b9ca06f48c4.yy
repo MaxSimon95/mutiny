@@ -19,7 +19,9 @@
         "8a7ab672-8b07-4730-9cda-cdf3fb43fa4d",
         "7d31a7c4-78d7-4260-aa8f-036c40c18520",
         "6b375b2d-c4e7-4b59-99e5-96e50dd3703c",
-        "1f3e9322-0b6d-4eff-838d-c097dea0c953"
+        "1f3e9322-0b6d-4eff-838d-c097dea0c953",
+        "da3d5140-4b31-4508-9770-2cf5546de816",
+        "2e30f5df-6649-44d7-9d19-58d61bd61410"
     ],
     "filterType": "GMSprite",
     "folderName": "beards",

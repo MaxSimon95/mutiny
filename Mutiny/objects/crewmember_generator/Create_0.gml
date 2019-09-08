@@ -10,9 +10,8 @@ global.crewsize = 60
   initialize_occupations()
   initialize_person_visuals()
   initialize_speech_colors()
-   for (i = 0; i < global.crewsize; i += 1)
+   for (var i = 0; i < global.crewsize; i += 1)
    {
-
 	
    script_execute(crewmember_generation,i)
    show_debug_message(string(global.crew[i].occupation) + " - " + string(global.crew[i].forename) + " " +  string(global.crew[i].surname));
@@ -22,5 +21,11 @@ global.crewsize = 60
    show_debug_message("- Healthyness: " + string(global.crew[i].healthyness) )
    show_debug_message("- Efficiency: " + string(global.crew[i].efficiency) )
    show_debug_message("- Stealth: " + string(global.crew[i].stealth) ) */
+   }
+   
+   // seperate loop because all character traits have to be calculated for this
+   for (var i = 0; i < global.crewsize; i += 1)
+   {
+   initialize_relations(i)
    }
    

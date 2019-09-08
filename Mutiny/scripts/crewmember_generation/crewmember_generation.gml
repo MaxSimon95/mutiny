@@ -8,12 +8,13 @@ with (new_character)
     forename = script_execute(forename_generation)
     surname = script_execute(surname_generation)
 	occupation = script_execute(occupation_selection, argument0)
+	crew_id = argument0
     }
 
 global.crew[argument0] = new_character
-script_execute(set_charactertraits,argument0)
-script_execute(set_person_visuals,argument0)
-
+set_charactertraits(argument0)
+set_person_visuals(argument0)
+set_person_voice(argument0)
 
 /*
 show_debug_message(new_character.surname);

@@ -6,6 +6,13 @@ global.skincolors[1]=make_colour_rgb(207, 150, 140);
 global.skincolors[2]=make_colour_rgb(143, 87, 101);
 //global.skincolors[x]=make_colour_rgb(82, 41, 75);
 
+
+// initialize skin types
+
+global.skintypes[0]=skintype0
+global.skintypes[1]=skintype1
+global.skintypes[2]=skintype2
+
 // initialize hair style
 
 global.hairstyles[0]=hairstyle0
@@ -26,6 +33,7 @@ global.hairstyles[14]=hairstyle14
 global.hairstyles[15]=hairstyle15
 global.hairstyles[16]=hairstyle16
 global.hairstyles[17]=hairstyle17
+global.hairstyles[18]=hairstyle18
 
 
 // initialize hair color
@@ -75,13 +83,15 @@ global.beards[6]=beard6
 global.beards[7]=beard7
 global.beards[8]=beard8
 global.beards[9]=beard9
-global.beards[10]=beard9
+global.beards[10]=beard9 // double for beardless peeps
 global.beards[11]=beard11
 global.beards[12]=beard12
 global.beards[13]=beard13
 global.beards[14]=beard14
 global.beards[15]=beard15
 global.beards[16]=beard16
+global.beards[17]=beard9
+global.beards[18]=beard18
 
 // initialize eyebrows
 
