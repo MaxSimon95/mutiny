@@ -25,7 +25,9 @@ if (time < text_length){
 			//if (!audio_is_playing(speech0_vfx))
 			audio_stop_sound(speech0_vfx);
 			audio_play_sound(speech0_vfx, 1, false);
+			person_mouth.open = true
 		}
+	
 		
 		if(string_char_at(print, string_length(print))=="^")
 		{

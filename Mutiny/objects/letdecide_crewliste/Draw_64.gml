@@ -13,15 +13,17 @@ if (showList)
         //var y1 = 20 + i * 20;
 		y1 = background_largelist.y+16 + i*height_entry
         var y2 = y1+height_entry-1;
-        draw_rectangle(x1, y1, x2, y2, 1);
+        //draw_rectangle(x1, y1, x2, y2, 1);
        
         var entry = list[pos];
-        draw_text(x1, y1, string(entry).occupation + " " + string(entry).forename + " " + string(entry).surname);
+       
        
         if (point_in_rectangle(mouse_x, mouse_y, x1, y1, x2, y2))
         {   
-            draw_rectangle(x1+1, y1+1, x2-1, y2-1, 1);
-            if (mouse_check_button_pressed(mb_left))
+			draw_set_color(make_color_rgb(105,23,70))
+			 draw_text(x1, y1, string(entry).occupation + " " + string(entry).forename + " " + string(entry).surname);
+            //draw_rectangle(x1+1, y1+1, x2-1, y2-1, 1);
+            if (mouse_check_button_released(mb_left))
             {
                 showList = false;
                 selectedValue = list[pos];
@@ -38,6 +40,11 @@ if (showList)
 				*/
             }
         }
+		else
+		{
+			draw_set_color(c_black)
+			 draw_text(x1, y1, string(entry).occupation + " " + string(entry).forename + " " + string(entry).surname);
+		}
     }
 }
 

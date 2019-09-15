@@ -6,3 +6,4 @@ if(visible)
 	visible=false
 	start_next_daily_event()
 }
+if(visible)cursor_sprite = cursor_normal

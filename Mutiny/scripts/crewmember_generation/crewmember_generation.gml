@@ -8,6 +8,7 @@ with (new_character)
     forename = script_execute(forename_generation)
     surname = script_execute(surname_generation)
 	occupation = script_execute(occupation_selection, argument0)
+	arrested = false
 	crew_id = argument0
     }
 

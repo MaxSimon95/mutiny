@@ -23,5 +23,11 @@ global.eventsNextDay = ds_list_create();
 global.eventsIn2Day = ds_list_create();
 global.eventsIn3Day = ds_list_create();
 global.eventsIn4Day = ds_list_create();
+
+cursor_sprite = cursor_normal
+window_set_cursor(cr_none)
+audio_sound_gain(bgm_calm_deck,0.4,0)
+audio_play_sound(bgm_calm_deck,1,true)
+
 	  
 day_start()

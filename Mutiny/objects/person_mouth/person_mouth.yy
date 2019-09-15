@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "person_mouth",
     "eventList": [
-        
+        {
+            "id": "9f319481-d5be-40b4-9bf5-4083b96a1cb1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "953800ab-740c-4795-b34f-c5a7aea7b168"
+        },
+        {
+            "id": "cf627cfa-d53c-41c9-9a1a-1d66a663fddd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "953800ab-740c-4795-b34f-c5a7aea7b168"
+        },
+        {
+            "id": "6d2d3844-e7f3-4305-bcaf-f6d4da506e53",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 73,
+            "eventtype": 8,
+            "m_owner": "953800ab-740c-4795-b34f-c5a7aea7b168"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

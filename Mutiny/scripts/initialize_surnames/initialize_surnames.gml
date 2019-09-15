@@ -315,6 +315,7 @@ global.surname_start[197] = "Mer"
 global.surname_start[198] = "Tril"
 global.surname_start[199] = "Roose"
 global.surname_start[200] = "Dea"
+global.surname_start[201] = "Coch"
 
 global.surname_end[0] = "ton"
 global.surname_end[1] = "sin"
@@ -417,5 +418,6 @@ global.surname_end[87] = "cabe"
 global.surname_end[88] = "cury"
 global.surname_end[89] = "velt"
 global.surname_end[90] = "con"
+global.surname_end[91] = "rane"
 
 

@@ -9,3 +9,4 @@ switch(global.current_event_status)
 		break;
 	default: break;
 }
+if(visible)cursor_sprite = cursor_normal

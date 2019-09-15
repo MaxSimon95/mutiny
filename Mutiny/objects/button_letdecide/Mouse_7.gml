@@ -3,7 +3,6 @@
 
 if(visible)
 {
-show_debug_message("LETII DI DICIDI")	
 	switch(global.current_event_status)
 	{
 	case event_trivial_7_0: 
@@ -19,4 +18,6 @@ largelist_button_arrow_down.visible=true
 //speech_bubble.visible=false
 background_largelist.visible = true
 make_standard_buttons_invisible()
+mouse_clear(mb_left);
 }
+if(visible)cursor_sprite = cursor_normal

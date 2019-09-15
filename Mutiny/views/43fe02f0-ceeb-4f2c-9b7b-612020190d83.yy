@@ -10,7 +10,9 @@
         "83520f9c-9f1f-4b79-b78c-5a691b62fcf6",
         "be12529e-7304-4dd0-80a2-c9dacd892c3c",
         "2b73a2d5-0a5d-44cc-9483-a446ba89c624",
-        "c64a7c80-e09c-4b78-a985-944f1da369b9"
+        "c64a7c80-e09c-4b78-a985-944f1da369b9",
+        "a6dc41ab-d5fc-4aeb-b60d-917ce6e10280",
+        "9dcb2e09-c3b7-48a2-b59b-ef0ff4a2bcf8"
     ],
     "filterType": "GMScript",
     "folderName": "helpers",
