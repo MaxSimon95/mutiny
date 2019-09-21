@@ -1,5 +1,6 @@
 
-switch(global.daily_supply_consumption)
+switch(global.daily_supply_consumption) 
+// needs to be reworked. only alive crew eats, and base value for daily consumption is 12 per eater
 {
 case "standard": global.supplies -= 20 break; 
 case "half": global.supplies -= 10 break; 

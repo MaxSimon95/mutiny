@@ -8,7 +8,7 @@ script_execute(create_events_list)
 
 global.occult_danger=0
 global.efficiency=100
-global.supplies=600
+global.supplies=global.crewsize*12*60
 global.loyalty=calculate_ship_loyalty()
 
 global.known_efficiency=global.efficiency

@@ -12,8 +12,9 @@
 	case "Have him tortured.": break;
 	case "Throw him off the ship.": break;
 case "Assign him a new Rank ...": break;
-case "Give him some extra rations.": break;
-case "Have him shot.": break;
+	case "Give him some extra booze.": break;
+	case "Give him some extra food.": break;
+	case "Have him shot.": break;
 case "Have him shot by a cannon.": break;
 case "Have him scrub the deck every day.": break;
 case "Have him hanged.": break;
@@ -235,6 +236,68 @@ global.crew[i].loyalty -= irandom(3) + global.crew[i].relationTo[global.affected
 global.affected.loyalty -= 2
 
 break;
+	
+	case "Give him some extra booze.": 
+	global.affected.loyalty += irandom(2)
+	if(global.current_crewmember.efficiency > 5) 
+	{
+		global.current_crewmember.loyalty -= irandom(2)
+		global.current_crewmember.relationTo[global.affected.crew_id] -= irandom(2)-1
+		
+	}
+	global.efficiency -= irandom(5)+5
+	global.supplies -= 50
+	
+	if(global.current_crewmember.relationTo[global.affected.crew_id]< 2) 
+	outputSpeech("Good. I hope you're trying to poison him this way...§ foor good.§ The crew would be better off without that fool.")
+	else if(global.current_crewmember.relationTo[global.affected.crew_id]< 8)
+	outputSpeech("Are you serious?§ I hope you have a good reason for this order.")
+	else if(global.current_crewmember.relationTo[global.affected.crew_id]< 10)
+	outputSpeech("Surprising... But I will see to it.")
+	else
+	outputSpeech("Fair enough, Captain.")
+	
+	break;
+
+		case "Give him some extra food.": 
+	global.affected.loyalty += irandom(2)-1
+	if(global.current_crewmember.efficiency > 6) 
+	{
+		global.current_crewmember.loyalty -= irandom(2)-1
+		global.current_crewmember.relationTo[global.affected.crew_id] -= irandom(2)-1
+		
+	}
+	global.efficiency -= irandom(4)
+	global.supplies -= 25
+	
+	if(global.current_crewmember.relationTo[global.affected.crew_id]< 2) 
+	outputSpeech("Alright.§§ Here's hoping he'll choke on it. ")
+	else if(global.current_crewmember.relationTo[global.affected.crew_id]< 8)
+	outputSpeech("I assume you have some sort of reasoning behind this. ")
+	else if(global.current_crewmember.relationTo[global.affected.crew_id]< 10)
+	outputSpeech("Surprising... But I will see to it.")
+	else
+	outputSpeech("Fair enough, Captain.")
+	
+	break;
+	
+	case "Have him shot.": 
+	if(global.current_crewmember.relationTo[global.affected.crew_id]< 2) {
+		outputSpeech("Very well.§ I'll have everything arranged to carry out the order.")
+	}
+	else if(global.current_crewmember.relationTo[global.affected.crew_id]< 8)
+	{
+	outputSpeech("Captain...§ I hope you have a good reason for this.")
+	}
+	else if(global.current_crewmember.relationTo[global.affected.crew_id]< 10)
+	{
+	outputSpeech("Surely you must be joking!§ Ha.§§ Ha Ha.§ Wait, you're serious? This order is against eveything I believe in")
+	}
+	else
+	{
+	outputSpeech("...§ ...§ You will regret the day you gave this order.")
+	}
+	break;
 	
 default:
 	outputSpeech("^This has =not been implemented yet,_ my Captain.")
