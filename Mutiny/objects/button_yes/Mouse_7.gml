@@ -8,6 +8,9 @@ switch(global.current_event_status)
 		global.current_event_status=event_trivial_7_0_yes
 		event_trivial_7_0_yes(); 
 		break;
+	case event_2_0:
+		global.current_event_status=event_2_0_yes
+		event_2_0_yes(); 
 	default: break;
 }
 if(visible)cursor_sprite = cursor_normal

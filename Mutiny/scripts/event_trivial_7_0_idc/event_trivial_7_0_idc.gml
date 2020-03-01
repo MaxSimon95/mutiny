@@ -10,7 +10,13 @@ if (global.current_crewmember.efficiency < 4)
 }
 else
 {
-	if (global.current_crewmember.aggressivity > 5)
+	if (
+	(global.current_crewmember.aggressivity > 8)
+	||
+	(global.current_crewmember.relationTo[global.affected.crew_id] < 4)
+	||
+	((global.current_crewmember.aggressivity > 4)&&(global.current_crewmember.relationTo[global.affected.crew_id] < 7))
+	)
 	{
 	outputSpeech("Well then.§ I'll suppose he will be punished.")
 	global.efficiency += 5

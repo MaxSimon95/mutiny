@@ -9,13 +9,13 @@ for(var i=0; i<array_length_1d(global.crew)-1; i++)
 	
 	if((irandom(100)>40)&&(global.crew[i].aggressivity>6))
 	{
-		show_debug_message("zielperson aggressiv")
+
 		relation_temp -= irandom(3) + global.crew[i].aggressivity / 5
 	}
 	
 	if(irandom(100)>10)&&(global.crew[argument[0]].aggressivity > 6 ) 
 	{
-		show_debug_message("ausgangsperson aggressiv")
+
 		relation_temp -= irandom(1) + global.crew[argument[0]].aggressivity / 5
 	}
 		/*

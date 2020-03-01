@@ -13,6 +13,7 @@ global.skintypes[0]=skintype0
 global.skintypes[1]=skintype1
 global.skintypes[2]=skintype2
 
+
 // initialize hair style
 
 global.hairstyles[0]=hairstyle0

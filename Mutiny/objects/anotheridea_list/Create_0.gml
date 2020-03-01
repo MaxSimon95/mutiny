@@ -26,7 +26,8 @@ list[j] = "Scold him before the entire crew."; j++
 list[j] = "Lock him up beneath deck."; j++
 list[j] = "Have him tortured."; j++
 list[j] = "Throw him off the ship."; j++
-list[j] = "Assign him a new Rank ..."; j++
+list[j] = "Have him whipped."; j++
+//list[j] = "Assign him a new Rank ..."; j++
 list[j] = "Give him some extra booze."; j++
 list[j] = "Give him some extra food."; j++
 list[j] = "Have him shot."; j++
@@ -41,7 +42,8 @@ list[j] = "Organize a small party."; j++
 list[j] = "Organize a great party."; j++
 list[j] = "Reduce everybody's rations."; j++
 list[j] = "Increase everybody's rations."; j++
-list[j] = "Double everybody's rations."; j++
+list[j] = "Increase everybody's rations."; j++
+
 
 
 

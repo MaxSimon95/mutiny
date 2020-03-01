@@ -3,12 +3,18 @@
 // assign base probability_score for each event
 //show_debug_message("assign base probability_score")
 show_debug_message("----- daily event selection -----")
+
+
 for (var i=0;i < (array_length_1d(global.events)-1); i++)
 {
+	// base probablity_score
 	global.events[i].probability_score = irandom(50)+50
+	
+	// lower probability score for recent events
 	if(global.events[i].last_occurence_date != -1)
 	{
 		show_debug_message("event " + global.events[i].name + " happened " + string_format(global.current_date-global.events[i].last_occurence_date, 3, 0) + " days before")
+		
 		switch(global.current_date-global.events[i].last_occurence_date)
 		{
 		case 0: global.events[i].probability_score = 0; break;	

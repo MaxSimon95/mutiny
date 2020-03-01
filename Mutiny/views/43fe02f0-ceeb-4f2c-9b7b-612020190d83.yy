@@ -12,7 +12,12 @@
         "2b73a2d5-0a5d-44cc-9483-a446ba89c624",
         "c64a7c80-e09c-4b78-a985-944f1da369b9",
         "a6dc41ab-d5fc-4aeb-b60d-917ce6e10280",
-        "9dcb2e09-c3b7-48a2-b59b-ef0ff4a2bcf8"
+        "9dcb2e09-c3b7-48a2-b59b-ef0ff4a2bcf8",
+        "87f1a112-66a7-4231-ab63-55d604e9c01f",
+        "a3ea13b6-b60f-4d3c-a235-2990962b89fa",
+        "773b5a82-21bc-4218-90d5-5d690407d024",
+        "be2cceda-1506-499a-91af-e538abd0defe",
+        "d814ff47-a08e-4f5f-8cae-509ec5e8f22c"
     ],
     "filterType": "GMScript",
     "folderName": "helpers",

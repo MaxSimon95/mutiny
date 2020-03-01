@@ -15,15 +15,10 @@ if (showList)
     else
     if (mouse_wheel_down())
     {
-		show_debug_message("pos before")
-		show_debug_message(upperPos)
-		show_debug_message(lowerPos)
+
         upperPos = min(upperPos+1, array_length_1d(list)-1);
         lowerPos = upperPos-7;
 		
-		show_debug_message("pos after")
-		show_debug_message(upperPos)
-		show_debug_message(lowerPos)
 		
 		largelist_button_arrow_up.visible = true
 		

@@ -13,7 +13,7 @@ if (time < text_length){
 
 		time +=spd;
 		print = string_copy(text,0,time);
-		if(string_char_at(print, string_length(print))=="§")
+		if(((string_char_at(print, string_length(print))=="$"))||(string_char_at(print, string_length(print))=="§"))
 		{
 			
 			text_pause_time = 25

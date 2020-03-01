@@ -1,14 +1,21 @@
 //window_set_fullscreen(true);
+global.expected_finish_date=59
 global.current_date=0
 global.current_crewmember=0
 global.current_event_status=0
 global.crewmember_visible=false
-global.daily_supply_consumption="standard"
+global.daily_supply_consumption=0
+
+global.daily_supply_consumption_subtrahend=12
 script_execute(create_events_list)
 
 global.occult_danger=0
 global.efficiency=100
-global.supplies=global.crewsize*12*60
+global.supplies=global.crewsize*12*(global.expected_finish_date+1+10)
+
+global.expected_out_of_supplies_date=global.current_date + 1 + global.supplies / (global.daily_supply_consumption_subtrahend*global.crewsize)
+
+
 global.loyalty=calculate_ship_loyalty()
 
 global.known_efficiency=global.efficiency
