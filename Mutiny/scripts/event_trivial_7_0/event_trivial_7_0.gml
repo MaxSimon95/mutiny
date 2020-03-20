@@ -143,16 +143,26 @@ update_person_visuals()
 
 // select affected crewmember
 
+k=0
 affected = global.crew[selectRandomCrewId(true)]
+
+
+
 while(affected == global.current_crewmember)
 ||(affected.occupation == "Captain")
 ||(affected.occupation == "Passenger")
 ||(affected.arrested)
 {
 	affected = global.crew[selectRandomCrewId(true)]
+	k++
+	if( k == 30 )
+	show_debug_message("k")
+	show_debug_message(k)
 }
 global.affected = affected
 
+show_debug_message("global.affected")
+	show_debug_message(global.affected)
 // output speech
 
 speech_bubble.visible = true

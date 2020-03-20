@@ -1,0 +1,54 @@
+switch (irandom(50))
+{
+	default: return("inside a church. ") break;
+	case 1: return("on a crowded market place. ") break;
+	case 2: return("at a moonlit beach. ") break;
+	case 3: return("in a busy harbour. ") break;
+	case 4: return("in the captain's cabin. ") break;
+	case 5: return("on deck. ") break;
+	case 6: return("on a raft in the middle of the sea. ") break;
+	case 7: return("on a desolate island. ") break;
+	case 8: return("in a dark cave. ") break;
+	case 9: return("ontop of a cliff. ") break;
+	case 10: return("in a swamp. ") break;
+	case 11: return("in front of a medieval castle. ") break;
+	case 12: return("in a luxuriant brothel. ") break;
+	case 13: return("in a dungeon. ") break;
+	case 14: return("on a graveyard. ") break;
+	case 15: return("in front of a shipwreck. ") break;
+	case 16: return("on the moon. ") break;
+	case 17: return("on a bridge. ") break;
+	case 18: return("in the middle of a battlefield. ") break;
+	case 19: return("on a green meadow. ") break;
+	case 20: return("surrounded by thick fog. ") break;
+	case 21: return("in the middle of the desert. ") break;
+	case 22: return("in shallow waters. ") break;
+	case 23: return("in heaven. ") break;
+	case 24: return("in a deserted village. ") break;
+	case 25: return("in a burning house. ") break;
+	case 26: return("in a crowded tavern. ") break;
+	case 27: return("surrounded by hungry wolves. ") break;
+	case 28: return("surrounded by pidgeons ") break;
+	case 29: return("next to a mighty old tree. ") break;
+	case 30: return("on a pirate ship. ") break;
+	case 31: return("surrounded by crying women. ") break;
+	case 32: return("in a snake pit. ") break;
+	case 33: return("in the eternal fires of hell. ") break;
+	case 34: return("illuminated by the rising morning sun. ") break;
+	case 35: return("at the ground of the ocean. ") break;
+	case 36: return("surrounded by orphans. ") break;
+	case 37: return("surrounded by an indian tribe. ") break;
+	case 38: return("in the middle of a sheep herd. ") break;
+	case 39: return("in the middle of a raging storm. ") break;
+	case 40: return("on a sinking ship. ") break;
+	case 41: return("with lightning in the distance. ") break;
+	case 42: return("on a dairy farm. ") break;
+	case 43: return("on a snowy mountain peak. ") break;
+	case 44: return("near a lighthouse. ") break;
+	case 45: return("with a ghost ship in the background. ") break;
+	case 46: return("with a a swarm of flies surrounding them. ") break;
+	case 47: return("in the basement of a distillery. ") break;
+	case 48: return("in a lavish vineyard. ") break;
+	case 49: return("while heavy rain pours down on them. ") break;
+
+}

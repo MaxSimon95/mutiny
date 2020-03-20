@@ -10,6 +10,9 @@ if(visible)
 	case event_trivial_7_0: 
 		global.current_event_status=event_trivial_7_0_idea
 		break;
+		case event_2_2:
+		global.current_event_status=event_2_2_idea
+		event_2_2_idea(); 
 	default: break;
 	}
 	

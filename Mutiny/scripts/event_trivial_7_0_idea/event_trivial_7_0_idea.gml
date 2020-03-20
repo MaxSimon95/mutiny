@@ -90,7 +90,7 @@ case "Punch him.":
 		if(irandom(10)>global.affected.healthyness)
 		{
 			show_debug_message("death!")
-			kill_crewmember(global.affected)
+			kill_crewmember(global.affected,"internal bleeding")
 			
 		}
 		else
@@ -200,7 +200,7 @@ else
 if(irandom(10)>global.affected.healthyness)
 		{
 			show_debug_message("death!")
-			kill_crewmember(global.affected)
+			kill_crewmember(global.affected, "torture")
 			
 		}
 		else
@@ -241,7 +241,7 @@ else
 for(var i=0; i<array_length_1d(global.crew)-1; i++;)
 global.crew[i].loyalty -= irandom(3) + global.crew[i].relationTo[global.affected.crew_id]/2
 global.affected.loyalty -= 2
-
+kill_crewmember(global.affected, "thrown off the ship")
 break;
 	
 	case "Give him some extra booze.": 
@@ -308,7 +308,7 @@ break;
 	for(var i=0; i<array_length_1d(global.crew)-1; i++;)
 	global.crew[i].loyalty -= 1 + global.crew[i].relationTo[global.affected.crew_id]/2
 	global.efficiency +=5+irandom(8)
-	
+	kill_crewmember(global.affected, "execution by shooting")
 	break;
 	
 	case "Have him shot by a cannon.": 
@@ -331,7 +331,7 @@ break;
 	for(var i=0; i<array_length_1d(global.crew)-1; i++;)
 	global.crew[i].loyalty -= irandom(4) + global.crew[i].relationTo[global.affected.crew_id]/2
 	global.efficiency +=5+irandom(8)
-	
+	kill_crewmember(global.affected, "execution by cannon")
 	break;
 	
 	case "Have him scrub the deck every day.": 
@@ -366,7 +366,7 @@ break;
 	for(var i=0; i<array_length_1d(global.crew)-1; i++;)
 	global.crew[i].loyalty -= 1 + global.crew[i].relationTo[global.affected.crew_id]/2
 	global.efficiency +=5+irandom(8)
-	
+	kill_crewmember(global.affected, "execution by hanging")
 	break;
 	
 	case "Kill him. The kitchen needs more meat.": 
@@ -383,7 +383,7 @@ break;
 	global.supplies += 60
 	for(var i=0; i<array_length_1d(global.crew)-1; i++;)
 	global.crew[i].loyalty -= irandom(5)+2 + global.crew[i].relationTo[global.affected.crew_id]/2
-	
+	kill_crewmember(global.affected, "execution")
 	break;
 	
 	case "Have the crew vote on what to do.": 
